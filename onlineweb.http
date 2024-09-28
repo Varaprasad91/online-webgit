@@ -1,0 +1,11 @@
+@onlineweb_HostAddress = http://localhost:5210
+
+GET {{onlineweb_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{onlineweb_HostAddress}}/todos/1
+Accept: application/json
+
+###
